@@ -1,0 +1,3 @@
+- Recriando a tela inicial da interface do netflix
+- Configuração de responsividade
+- Utilização de jquery com galeria de fotos
