@@ -44,18 +44,21 @@ header nav a:hover{
 /**elementos filme principal**/
 .filme-principal{
     font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('../images/capa-house.jpg');
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('../images/capa-filme.jpg');
     height: 400px;
     background-size: cover;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: space-evenly;
     align-items: center;
 }
 
 .filme-principal .descricao{
     margin-top: 10px;
     margin-bottom: 40px;
+    font-family: 'Hina Mincho', serif;
+    font-size: 20px;
+
 }
 
 .titulo{
@@ -86,12 +89,41 @@ header nav a:hover{
 .box-filme{
     height: 100%;
     width: 100%;
-
+    border-radius: 5px;
 }
 
 .carrossel-filmes{
     margin-top: 5px;
 }
+
+.serie-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('../images/capa-serie.jpg');
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.serie-principal .descricao{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    font-family: 'Hina Mincho', serif;
+    font-size: 20px;
+
+}
+
+.box-series{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+.carrossel-series{
+    margin-top: 5px;
+}
+
 
 @media screen and (max-width:700px) {
     header .container{
